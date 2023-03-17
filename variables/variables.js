@@ -4,6 +4,8 @@ An online shop – the information might include goods being sold and a shopping
 A chat application – the information might include users, messages, and much more.
 Variables are used to store this information. */
 
+import { multiplier } from "../fakeData/constantValues"
+
 let message = "Hello"
 var second_message = "Hello too"
 // console.log(message)
@@ -45,5 +47,15 @@ function how_let_works() {
 }
 console.log(how_var_works())
 console.log(how_let_works())
+
+//using const....
+function multiply_numbers_by_10(a) {
+      return a * multiplier
+}
+
+console.log(multiply_numbers_by_10(50))
+console.log(multiply_numbers_by_10(100))
+
+
 
 //Assignment is coming up for this module..
